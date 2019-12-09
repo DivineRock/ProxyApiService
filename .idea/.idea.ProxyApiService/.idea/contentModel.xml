@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\packages" t="ExcludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ProxyApiService.667268140.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\source\repos\ProxyApiService" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Contracts" t="Include">
+        <e p="V1" t="Include">
+          <e p="ApiRoutes.cs" t="Include" />
+          <e p="Requests" t="Include">
+            <e p="CreateProxyRequest.cs" t="Include" />
+            <e p="UpdateProxyRequest.cs" t="Include" />
+          </e>
+          <e p="Responses" t="Include">
+            <e p="ProxyResponse.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="V1" t="Include">
+          <e p="ProxiesController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Data" t="Include">
+        <e p="DataContext.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20191209112413_Proxies.cs" t="Include" />
+          <e p="20191209112413_Proxies.Designer.cs" t="Include" />
+          <e p="DataContextModelSnapshot.cs" t="Include" />
+        </e>
+      </e>
+      <e p="docker-compose.yml" t="Include" />
+      <e p="Dockerfile" t="Include" />
+      <e p="Domain" t="Include">
+        <e p="Proxy.cs" t="Include" />
+      </e>
+      <e p="Installers" t="Include">
+        <e p="DbInstaller.cs" t="Include" />
+        <e p="IInstaller.cs" t="Include" />
+        <e p="InstallerExtentions.cs" t="Include" />
+        <e p="MvcInstaller.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Release" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="ProxyApiService.AssemblyInfo.cs" t="Include" />
+            <e p="ProxyApiService.RazorAssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Options" t="Include">
+        <e p="SwaggerOptions.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="ProxyApiService.csproj" t="IncludeRecursive" />
+      <e p="ProxyApiService.sln" t="IncludeFlat" />
+      <e p="Services" t="Include">
+        <e p="IProxyService.cs" t="Include" />
+        <e p="ProxyService.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+    </e>
+  </component>
+</project>
