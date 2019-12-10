@@ -29,6 +29,11 @@
       </e>
       <e p="Data" t="Include">
         <e p="DataContext.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20191210110611_Proxies.cs" t="Include" />
+          <e p="20191210110611_Proxies.Designer.cs" t="Include" />
+          <e p="DataContextModelSnapshot.cs" t="Include" />
+        </e>
       </e>
       <e p="docker-compose.yml" t="Include" />
       <e p="Dockerfile" t="Include" />
@@ -40,11 +45,6 @@
         <e p="IInstaller.cs" t="Include" />
         <e p="InstallerExtentions.cs" t="Include" />
         <e p="MvcInstaller.cs" t="Include" />
-      </e>
-      <e p="Migrations" t="Include">
-        <e p="20191210110611_Proxies.cs" t="Include" />
-        <e p="20191210110611_Proxies.Designer.cs" t="Include" />
-        <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Release" t="Include">

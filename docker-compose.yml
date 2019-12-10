@@ -1,13 +1,7 @@
 version: '3.5'
 
-networks:
-  localdev:
-    name: localdev
-
 services:
   main-api:
     build: .
     ports:
       - "55555:80"
-    networks:
-      - localdev
