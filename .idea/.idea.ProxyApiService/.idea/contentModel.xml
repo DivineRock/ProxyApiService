@@ -29,7 +29,6 @@
       </e>
       <e p="Data" t="Include">
         <e p="DataContext.cs" t="Include" />
-        <e p="Migrations" t="Include" />
       </e>
       <e p="docker-compose.yml" t="Include" />
       <e p="Dockerfile" t="Include" />
