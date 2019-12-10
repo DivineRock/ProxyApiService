@@ -12,7 +12,7 @@ namespace ProxyApiService.Installers
         public void InstallServices(IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<DataContext>(options =>
-                options.UseSqlServer(
+                options.UseSqlite(
                     configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<DataContext>();

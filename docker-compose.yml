@@ -9,20 +9,5 @@ services:
     build: .
     ports:
       - "55555:80"
-    depends_on:
-      - db-server
-    networks:
-      - localdev
-
-  db-server:
-    image: microsoft/mssql-server-linux:2017-latest
-    container_name: db-server
-    restart: always
-    environment:
-      - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=1Secure*Password1
-      - MSSQL_TCP_PORT=1433
-    ports:
-      - "1400:1433"
     networks:
       - localdev
